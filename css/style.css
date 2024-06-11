@@ -1,0 +1,177 @@
+/*
+RESET
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    background-color: #FFFFFF;
+    min-height: 50px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+
+}
+.header{
+    background-color: black;
+}
+.headercolor {
+    background-color: #ADD8E6;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nav-header {
+    background-color: #D8A420;
+    border: 2px dashed black;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 10px 5px;
+    --width: calc(100%/3);
+    text-align: center;
+}
+
+.logo {
+    width: calc(100%/5);
+    text-align: left;
+}
+.link{
+    width: calc((100%/5) *3);
+    text-decoration: none;
+    
+}
+.login {
+    width: calc(100%/5);
+    text-align: right;
+
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    background-color: #00008B;
+}
+
+.box {
+    background-color: #EE82EE;
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: dashed 2px black;
+    border-radius: 5px;
+}
+
+--.container-main2 {
+    --background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxes {
+    background-color: #FFFFFF;
+    display: flex;
+    height: 450px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.alt-bcg {
+    background-color: #D3D3D3;
+}
+
+.alt-bcg2 {
+    padding-top: 30px;
+    background-color: #23272A;
+}
+
+.section1 {
+    width: 70%;
+    border: 2px dashed black;
+    background-color: #1E90FF;
+}
+
+.section2 {
+    width: 30%;
+    border: 2px dashed black;
+    background-color: #FFC0CB;
+}
+
+.boxes3 {
+    display: flex;
+    height: 800px;
+    background-color: green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px dashed black;
+}
+
+.boxes4 {
+    display: flex;
+    height: 500px;
+    border: 1px dashed white;
+    background-color: lightgreen;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.section3 {
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.section4 {
+    display: flex;
+    width: 70%;
+    border: 2px dashed black;
+}
+.section5 {
+    display: flex;
+    width: 100%;
+   
+}
+
+
+.columns {
+    width: 25%;
+    border: 2px dashed white;
+}
+
+.footer-container {
+    background-color: bisque;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    background-color: pink;
+    border: 2px dashed black;
+}
+
+.footer-bottoni {
+    background-color: pink;
+    border: 2px dashed black;
+    text-align: center;
+    padding: 5px 10px 5px;
+}
+.hrfooter{
+    border-color: white;
+}
