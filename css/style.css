@@ -21,7 +21,8 @@ RESET
     background-color: black;
 }
 .headercolor {
-    background-color: #ADD8E6;
+    
+    background-color: #255EE9;
 }
 
 .flex-container {
@@ -35,17 +36,29 @@ RESET
 }
 
 .nav-header {
-    background-color: #D8A420;
-    border: 2px dashed black;
+    --background-color: #D8A420;
+    --border: 2px dashed black;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px 10px 5px;
-    --width: calc(100%/3);
     text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+.lists{
+    padding-top: 10px;
+    padding-left: 30px;   
+}
+.linkstyle{
+    color: white;
+    text-decoration: none;
 }
 
 .logo {
+    display: flex;
+    justify-content:flex-start;
     width: calc(100%/5);
     text-align: left;
 }
@@ -55,25 +68,62 @@ RESET
     
 }
 .login {
+    display: flex;
+    justify-content:flex-end;
     width: calc(100%/5);
     text-align: right;
 
 }
+.linklogin {
+   justify-content: flex-end;
+   align-self: center;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px 20px 5px;
+}
+.linkmacdownload{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px 30px 10px;
+    border-radius: 20px;
 
+}
+.linkbrowser{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 30px 10px;
+    border-radius: 20px;
+
+}
+.titlesstyle{
+    font-size: 3em;
+}
+p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .container-main {
     display: flex;
     justify-content: center;
     background-color: #00008B;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .box {
-    background-color: #EE82EE;
+    --background-color: #EE82EE;
     width: 1000px;
     height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: dashed 2px black;
+    --border: dashed 2px black;
     border-radius: 5px;
+    text-align: center;
 }
 
 --.container-main2 {
@@ -87,7 +137,6 @@ RESET
     background-color: #FFFFFF;
     display: flex;
     height: 450px;
-
     margin-top: 30px;
     margin-bottom: 30px;
 }
