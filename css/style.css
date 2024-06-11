@@ -17,35 +17,33 @@ RESET
 
 
 }
-.header{
-    background-color: black;
+ul {
+    list-style-type: none;
 }
+.item {
+    margin: 0 auto;
+    width: 80%;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+/*
+HEADER
+*/
 .headercolor {
     
     background-color: #255EE9;
 }
 
-.flex-container {
-    display: flex;
-    justify-content: center;
-}
 
-.item {
-    margin: 0 auto;
-    width: 80%;
-}
 
 .nav-header {
-    --background-color: #D8A420;
-    --border: 2px dashed black;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 5px 10px 5px;
     text-align: center;
-}
-ul {
-    list-style-type: none;
 }
 .lists{
     padding-top: 10px;
@@ -75,8 +73,8 @@ ul {
 
 }
 .linklogin {
-   justify-content: flex-end;
-   align-self: center;
+    justify-content: flex-end;
+    align-self: center;
     background-color: white;
     color:black;
     text-decoration: none;
@@ -114,15 +112,15 @@ p{
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
-
+/*
+MAIN
+*/
 .box {
     --background-color: #EE82EE;
     width: 1000px;
     height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
-    --border: dashed 2px black;
-    border-radius: 5px;
     text-align: center;
 }
 
@@ -141,8 +139,9 @@ p{
     margin-bottom: 30px;
 }
 
-.alt-bcg {
-    background-color: #D3D3D3;
+.alt-bcg{
+    /*!--inserire immagine background
+    */
 }
 
 .alt-bcg2 {
@@ -152,43 +151,54 @@ p{
 
 .section1 {
     width: 60%;
-    border: 2px dashed black;
-    --background-color: #1E90FF;
 }
 
 .section2 {
     width: 40%;
-    border: 2px dashed black;
-    background-color: #FFC0CB;
 }
 
 .boxes3 {
     display: flex;
-    height: 800px;
-    background-color: green;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 2px dashed black;
+}
+.pboxes3{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 
+.linkmacdownload-alt{
+    text-decoration: none;
+    background-color: skyblue;
+    color: white;
+    padding: 10px 30px 10px;
+    border-radius: 20px;
+}
 .boxes4 {
     display: flex;
     height: 500px;
-    border: 1px dashed white;
-    background-color: lightgreen;
     margin-top: 5px;
     margin-bottom: 30px;
 }
 
 .section3 {
     width: 30%;
-    border: 2px dashed black;
 }
 
 .section4 {
     display: flex;
     width: 70%;
-    border: 2px dashed black;
 }
 .section5 {
     display: flex;
@@ -199,27 +209,50 @@ p{
 
 .columns {
     width: 25%;
-    border: 2px dashed white;
 }
-
+/*
+FOOTER
+*/
 .footer-container {
-    background-color: bisque;
     min-height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.footer-logo {
-    background-color: pink;
-    border: 2px dashed black;
+.listsfooter{
+    color: white;
+    padding-top: 20px;
+    
+}
+.first-listsfooter{
+    padding-top: 20px;
+    color: skyblue;
 }
 
+.titlefooter{
+    color: skyblue;
+    font-style: bold;
+}
+.pfooter{
+    color: white;
+    display: flex;
+}
+.imgitafooter{
+    align-self: flex-start;
+    height: 20px;
+    padding-right: 5px;
+}
 .footer-bottoni {
-    background-color: pink;
-    border: 2px dashed black;
     text-align: center;
     padding: 5px 10px 5px;
+}
+.linkbottomfooter{
+    background-color: skyblue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 30px 10px;
+    text-decoration: none;
+   
 }
 .hrfooter{
     border-color: white;
